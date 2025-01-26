@@ -1,6 +1,6 @@
 # EPUB Downloader
 
-This script is a re-creation of a python script made by [Mia Combeau](https://github.com/mcombeau), but in Javascript.
+This script is a re-creation of a python script made by [Mia Combeau](https://github.com/mcombeau/epub_downloader/), but in Javascript.
 
 Just as the python script, this can pull epubs from the following sites:
 
