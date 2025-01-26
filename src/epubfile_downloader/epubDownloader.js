@@ -11,10 +11,11 @@ const MAX_RETRIES = 3;
 const MAX_DELAY = 5;
 
 class EpubFileDownloader {
-  constructor(logster, base_url, ebook_name) {
+  constructor(logster, base_url, ebook_name, source) {
     this.logster = logster;
     this.base_url = base_url;
     this.ebook_name = ebook_name;
+    this.source = source;
     this.file_manager = new FileManager(logster, ebook_name); // Use the FileManager class
     this.retry_codes = [
       429, // TOO_MANY_REQUESTS
