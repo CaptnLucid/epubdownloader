@@ -34,21 +34,16 @@ npm install
 To run the script, use the following in a terminal space:
 
 ```bash
-node index.js <url>
+node index.js 
 ```
-
-### Example
-
-Currently `epub.pub` isn't working properly with the `spread/continuous` pages, so the best alternative is to use an asset link.
-
+Use arrow keys to select the source and press `Enter` to choose it
 ```bash
-node index.js https://asset.epub.pub/epub/it-by-stephen-king-1.epub
+- EPUBPub
+- ReadAnyBook
 ```
-
-Or for `Read Any Book`
-
+Enter the URL of the book
 ```bash
-https://www.readanybook.com/ebook/it-book-565296
+? Enter the URL of the book:
 ```
 
 ## Notes
